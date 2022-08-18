@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+<body>
+    <h1>Physics IA Projectile Motion Simulations</h1>
+    <h3>Kevin Han Y12 UCC</h3>
+    Launch Angle: <input type="text" name="angle" id="launch">
+    <button onclick="generateParabola()">Generate</button>
+    <hr>
+    <div class='parent flex-parent'>
+        <canvas id="myChart" class='child' style="width:100%;max-width:700px; display: inline-block"></canvas>
+        <canvas id="myChart2" class='child' style="width:100%;max-width:700px; display: inline-block"></canvas>
+        <canvas id="myChart3" class='child' style="width:100%;max-width:700px"></canvas>
+        <p id="dataList" class='child' style="width:100%;max-width:700px; display: inline-block"></p>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+<script src="scripts.js"></script>
+</html>
